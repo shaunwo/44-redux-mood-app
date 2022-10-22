@@ -10,6 +10,8 @@ function moodReducer(state = DEFAULT_STATE, action) {
 			return { ...state, face: action.payload };
 		case 'MOOD_SAD':
 			return { ...state, face: action.payload };
+		case 'MOOD_CRAZY':
+			return { ...state, face: action.payload };
 		case 'MOOD_ANGRY':
 			return { ...state, face: action.payload };
 		case 'MOOD_CONFUSED':

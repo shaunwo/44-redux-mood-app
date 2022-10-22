@@ -11,6 +11,9 @@ document.getElementById('happy').addEventListener('click', () => {
 document.getElementById('sad').addEventListener('click', () => {
 	store.dispatch({ type: 'MOOD_SAD', payload: '(ಥ﹏ಥ)' });
 });
+document.getElementById('crazy').addEventListener('click', () => {
+	store.dispatch({ type: 'MOOD_CRAZY', payload: '(◔ڼ◔)' });
+});
 document.getElementById('angry').addEventListener('click', () => {
 	store.dispatch({ type: 'MOOD_ANGRY', payload: '٩(ఠ益ఠ)۶' });
 });
